@@ -203,3 +203,18 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+
+.quote {
+  font-style: italic;
+  font-size: 1rem;
+  color: #555;
+  margin-top: 1.5rem;
+  line-height: 1.5;
+}
+
+.quote span {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
