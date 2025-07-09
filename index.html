@@ -1,28 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/app.css">
-  
-  </script>
-  <title>portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ernesto Rodriguez | Portfolio</title>
+  <link rel="stylesheet" href="css/app.css" />
 </head>
+
 <body>
-  <header>
-    <h1>My Portfolio</h1>
+  <header class="hero">
+    <div class="container">
+      <h1>Ernesto Rodriguez</h1>
+      <p>Web Developer</p>
+    </div>
   </header>
+
   <nav>
-    <div id="about"><h1>about</h1></div>
-    <div id="skills"><h1>skills</h1></div> 
-    <div id="projects"><h1>projects</h1></div>
-    <div id="contact"><h1>contact</h1></div>
+    <ul class="nav-menu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </nav>
-  
+
+  <main class="container">
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-wrapper">
+        <img src="assets/images/emr.jpg" alt="Ernesto's profile picture" class="profile-img" />
+        <div>
+          <p>
+            I'm a passionate web development student at Trios College with a background in classical painting and bartending.
+            I love building beautiful, functional websites and teaching traditional art. I'm on a journey to become a full-stack
+            developer and build things that make people's lives better.
+          </p>
+        </div>
+      </div>
+      <hr />
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML5, CSS3, JavaScript</li>
+        <li>Git & GitHub</li>
+        <li>Responsive Design</li>
+        <li>Terminal & VS Code</li>
+      </ul>
+      <hr />
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul class="projects-list">
+        <li><strong>FocusFlow</strong> – A minimal Pomodoro timer app</li>
+        <li><strong>Photography Website</strong> – A sleek gallery for a photographer client</li>
+        <li><strong>This Portfolio</strong> – A showcase of my skills, design, and growth</li>
+      </ul>
+      <hr />
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can reach me at: <a href="mailto:miguel.rodriguez@triosstudent.com">miguel.rodriguez@triosstudent.com</a></p>
+    </section>
+
+  </main>
+
   <footer>
-    <p>&copy; 2025 My Portfolio</p>
+    <div class="container">
+      <p>&copy; 2025 Ernesto Rodriguez. All rights reserved.</p>
+    </div>
   </footer>
-    
-  
+
+  <script src="scripts/app.js"></script>
 </body>
 </html>
