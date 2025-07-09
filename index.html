@@ -4,9 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ernesto Rodriguez | Portfolio</title>
+
+  <!-- Google Font: Merriweather -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet" />
+  
+  <!-- CSS -->
   <link rel="stylesheet" href="css/app.css" />
 </head>
-
 <body>
   <header class="hero">
     <div class="container">
@@ -15,18 +19,22 @@
     </div>
   </header>
 
+  <!-- Navigation -->
   <nav>
-    <ul class="nav-menu">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+    <div class="nav-container">
+      <button class="hamburger" aria-label="Toggle navigation">&#9776;</button>
+      <ul class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
   </nav>
 
+  <!-- Main Content -->
   <main class="container">
-
-    <section id="about">
+    <section id="about" class="fade-in">
       <h2>About Me</h2>
       <div class="about-wrapper">
         <img src="assets/images/emr.jpg" alt="Ernesto's profile picture" class="profile-img" />
@@ -41,7 +49,7 @@
       <hr />
     </section>
 
-    <section id="skills">
+    <section id="skills" class="fade-in">
       <h2>Skills</h2>
       <ul class="skills-list">
         <li>HTML5, CSS3, JavaScript</li>
@@ -52,7 +60,7 @@
       <hr />
     </section>
 
-    <section id="projects">
+    <section id="projects" class="fade-in">
       <h2>Projects</h2>
       <ul class="projects-list">
         <li><strong>FocusFlow</strong> – A minimal Pomodoro timer app</li>
@@ -62,19 +70,20 @@
       <hr />
     </section>
 
-    <section id="contact">
+    <section id="contact" class="fade-in">
       <h2>Contact</h2>
       <p>You can reach me at: <a href="mailto:miguel.rodriguez@triosstudent.com">miguel.rodriguez@triosstudent.com</a></p>
     </section>
-
   </main>
 
+  <!-- Footer -->
   <footer>
     <div class="container">
       <p>&copy; 2025 Ernesto Rodriguez. All rights reserved.</p>
     </div>
   </footer>
 
+  <!-- JavaScript -->
   <script src="scripts/app.js"></script>
 </body>
 </html>
