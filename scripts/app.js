@@ -1,4 +1,4 @@
-// === Hamburger Menu Toggle ===
+
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 
@@ -6,8 +6,6 @@ hamburger.addEventListener('click', () => {
   navMenu.classList.toggle('active');
 });
 
-
-// === Scroll Fade-In Animation ===
 const faders = document.querySelectorAll('.fade-in');
 
 const appearOptions = {
